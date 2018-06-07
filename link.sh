@@ -3,9 +3,16 @@ declare -a files=(
   .bash_profile
   .gitconfig
   .inputrc
+  .vim
+  .vimrc
 )
 
 for f in ${files[@]}
 do
-  ln -siv $PWD/$f $HOME/$f
+  if [ ! -d $HOME/$f ]
+  then
+    ln -s $PWD/$f $HOME/$f
+  else
+    echo ln: $HOME/$f: Directory exists
+  fi
 done
