@@ -27,16 +27,20 @@ set softtabstop=2
 set backspace=indent,eol,start
 
 set list
-set listchars=tab:›·,trail:·,nbsp:·
+set listchars=tab:>\ ,trail:+,nbsp:~
 
-nnoremap U <c-r>
-nnoremap Q :quit<cr>
+nnoremap U <C-R>
+nnoremap Q :quit<CR>
+
+let mapleader=" "
+
+nnoremap <Leader>w :update<CR>
+nnoremap <Leader>n :nohlsearch<CR>
 
 " one dark
 packadd! onedark.vim
 colorscheme onedark
 set termguicolors
-" let g:onedark_terminal_italics=1
 
 " lightline
 set laststatus=2
@@ -44,3 +48,8 @@ set noshowmode
 let g:lightline = {
   \ 'colorscheme': 'onedark',
   \ }
+
+" nerdtree
+nnoremap <Bslash> :NERDTreeToggle<CR>
+let g:NERDTreeQuitOnOpen=1
+let g:NERDTreeShowHidden=1
