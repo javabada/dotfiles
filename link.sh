@@ -3,6 +3,7 @@ declare -a files=(
   .bash_profile
   .gitconfig
   .inputrc
+  .tmux.conf
   .vim
   .vimrc
 )
