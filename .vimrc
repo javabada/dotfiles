@@ -43,11 +43,14 @@ set listchars=tab:>\ ,trail:+,nbsp:~
 
 nnoremap U <C-R>
 nnoremap Q :quit<CR>
+nnoremap <C-N> :nohlsearch<CR>
 
 let mapleader=" "
 
 nnoremap <Leader>w :update<CR>
-nnoremap <Leader>n :nohlsearch<CR>
+nnoremap <Leader>n :bnext<CR>
+nnoremap <Leader>p :bprevious<CR>
+nnoremap <Leader>d :bprevious<CR>:bdelete#<CR>
 
 " one dark
 packadd! onedark.vim
@@ -66,6 +69,7 @@ let g:lightline = {
 nnoremap <Bslash> :NERDTreeToggle<CR>
 let g:NERDTreeQuitOnOpen=1
 let g:NERDTreeShowHidden=1
+let g:NERDTreeMinimalUI=1
 
 " ale / gitgutter
 set signcolumn=yes
