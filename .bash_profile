@@ -6,3 +6,8 @@ alias c='clear'
 alias q='logout'
 alias t='touch'
 alias v='vim'
+
+alias gs='git status'
+alias gd='git diff'
+alias ga='git add'
+alias gc='git commit'
