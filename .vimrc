@@ -73,6 +73,3 @@ let g:NERDTreeMinimalUI=1
 
 " ale / gitgutter
 set signcolumn=yes
-
-" gitgutter
-let g:gitgutter_map_keys=0
