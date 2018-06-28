@@ -11,5 +11,37 @@
   "window.restoreFullscreen": true,
   "workbench.startupEditor": "newUntitledFile",
   "workbench.statusBar.feedback.visible": false,
+  "vim.hlsearch": true,
+  "vim.leader": " ",
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["U"],
+      "after": ["<C-r>"]
+    },
+    {
+      "before": ["Q"],
+      "commands": [{ "command": ":quit" }]
+    },
+    {
+      "before": ["<C-n>"],
+      "commands": [{ "command": ":nohlsearch" }]
+    },
+    {
+      "before": ["<Leader>", "w"],
+      "commands": [{ "command": ":write" }]
+    },
+    {
+      "before": ["<Leader>", "n"],
+      "commands": [{ "command": "workbench.action.nextEditor" }]
+    },
+    {
+      "before": ["<Leader>", "p"],
+      "commands": [{ "command": "workbench.action.previousEditor" }]
+    },
+    {
+      "before": ["\\"],
+      "commands": [{ "command": "workbench.view.explorer" }]
+    }
+  ],
   "workbench.colorTheme": "One Dark Pro"
 }
