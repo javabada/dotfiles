@@ -17,3 +17,5 @@ do
     echo ln: $HOME/$f: Directory exists
   fi
 done
+
+ln -s $PWD/settings.json $HOME/Library/Application\ Support/Code/User/settings.json
