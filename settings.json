@@ -3,6 +3,8 @@
   "editor.minimap.enabled": false,
   "editor.rulers": [80],
   "explorer.openEditors.visible": 0,
+  "files.encoding": "utf8",
+  "files.eol": "\n",
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
   "files.trimTrailingWhitespace": true,
