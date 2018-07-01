@@ -41,16 +41,15 @@ set backspace=indent,eol,start
 set list
 set listchars=tab:>\ ,trail:+,nbsp:~
 
-nnoremap U <C-R>
+nnoremap U <C-r>
 nnoremap Q :quit<CR>
-nnoremap <C-N> :nohlsearch<CR>
+nnoremap <C-n> :nohlsearch<CR>
 
 let mapleader=" "
 
 nnoremap <Leader>w :update<CR>
 nnoremap <Leader>n :bnext<CR>
 nnoremap <Leader>p :bprevious<CR>
-nnoremap <Leader>d :bprevious<CR>:bdelete#<CR>
 
 " one dark
 packadd! onedark.vim
