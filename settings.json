@@ -2,6 +2,7 @@
   "editor.fontSize": 14,
   "editor.minimap.enabled": false,
   "editor.rulers": [80],
+  "editor.tabSize": 2,
   "explorer.openEditors.visible": 0,
   "files.encoding": "utf8",
   "files.eol": "\n",
@@ -27,27 +28,27 @@
     },
     {
       "before": ["Q"],
-      "commands": [{ "command": ":quit" }]
+      "commands": [":quit"]
     },
     {
       "before": ["<C-n>"],
-      "commands": [{ "command": ":nohlsearch" }]
+      "commands": [":nohlsearch"]
     },
     {
       "before": ["<Leader>", "w"],
-      "commands": [{ "command": ":write" }]
+      "commands": [":write"]
     },
     {
       "before": ["<Leader>", "n"],
-      "commands": [{ "command": "workbench.action.nextEditor" }]
+      "commands": ["workbench.action.nextEditor"]
     },
     {
       "before": ["<Leader>", "p"],
-      "commands": [{ "command": "workbench.action.previousEditor" }]
+      "commands": ["workbench.action.previousEditor"]
     },
     {
       "before": ["\\"],
-      "commands": [{ "command": "workbench.view.explorer" }]
+      "commands": ["workbench.view.explorer"]
     }
   ],
   "workbench.colorTheme": "One Dark Pro"
