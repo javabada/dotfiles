@@ -17,7 +17,7 @@
   "telemetry.enableCrashReporter": false,
   "telemetry.enableTelemetry": false,
   "window.restoreFullscreen": true,
-  "workbench.startupEditor": "newUntitledFile",
+  "workbench.startupEditor": "none",
   "workbench.statusBar.feedback.visible": false,
   "vim.hlsearch": true,
   "vim.leader": " ",
