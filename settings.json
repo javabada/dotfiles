@@ -14,11 +14,17 @@
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
   "files.trimTrailingWhitespace": true,
+  "javascript.suggestionActions.enabled": false,
   "telemetry.enableCrashReporter": false,
   "telemetry.enableTelemetry": false,
   "window.restoreFullscreen": true,
   "workbench.startupEditor": "none",
   "workbench.statusBar.feedback.visible": false,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "vue"
+  ],
   "vim.hlsearch": true,
   "vim.leader": " ",
   "vim.normalModeKeyBindingsNonRecursive": [
