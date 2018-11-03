@@ -15,11 +15,6 @@
   "window.restoreFullscreen": true,
   "workbench.startupEditor": "none",
   "workbench.statusBar.feedback.visible": false,
-  "eslint.validate": [
-    "javascript",
-    "javascriptreact",
-    "vue"
-  ],
   "vim.hlsearch": true,
   "vim.leader": " ",
   "vim.normalModeKeyBindingsNonRecursive": [
@@ -50,6 +45,10 @@
     {
       "before": ["\\"],
       "commands": ["workbench.view.explorer"]
+    },
+    {
+      "before": ["<Leader>", "f"],
+      "commands": ["editor.action.formatDocument"]
     }
   ],
   "workbench.colorTheme": "One Dark Pro"
