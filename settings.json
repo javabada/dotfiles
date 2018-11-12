@@ -13,6 +13,7 @@
   "telemetry.enableCrashReporter": false,
   "telemetry.enableTelemetry": false,
   "window.restoreFullscreen": true,
+  "workbench.colorTheme": "One Dark Pro",
   "workbench.startupEditor": "none",
   "workbench.statusBar.feedback.visible": false,
   "vim.hlsearch": true,
@@ -50,6 +51,5 @@
       "before": ["<Leader>", "f"],
       "commands": ["editor.action.formatDocument"]
     }
-  ],
-  "workbench.colorTheme": "One Dark Pro"
+  ]
 }
