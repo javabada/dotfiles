@@ -1,8 +1,8 @@
 export CLICOLOR=1
 
 alias c='clear'
-alias la='ls -a'
-alias ll='ls -al'
+alias la='ls -aF'
+alias ll='ls -alF'
 alias q='logout'
 alias t='touch'
 alias v='vim'
