@@ -16,6 +16,11 @@
   "workbench.colorTheme": "One Dark Pro",
   "workbench.startupEditor": "none",
   "workbench.statusBar.feedback.visible": false,
+  "[python]": {
+    "editor.tabSize": 4
+  },
+  "python.linting.flake8Enabled": true,
+  "python.linting.pylintEnabled": false,
   "vim.hlsearch": true,
   "vim.leader": " ",
   "vim.normalModeKeyBindingsNonRecursive": [
