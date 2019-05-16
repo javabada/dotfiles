@@ -1,9 +1,7 @@
 export CLICOLOR=1
 
-alias c='clear'
 alias la='ls -aF'
 alias ll='ls -alF'
-alias q='logout'
 alias t='touch'
 alias v='vim'
 
@@ -13,7 +11,6 @@ alias gc='git commit'
 alias gco='git checkout'
 alias gd='git diff'
 alias gds='git diff --staged'
-alias gf='git fetch'
 alias gl='git log'
 alias gr='git reset'
 alias gs='git status'
