@@ -18,3 +18,10 @@ alias gs='git status'
 alias ta='tmux attach-session'
 alias tl='tmux list-sessions'
 alias tn='tmux new-session'
+
+# autocompletion
+autoload -Uz compinit
+compinit
+
+zstyle ':completion:*' matcher-list 'm:{a-zA-Z}={A-Za-z}'
+zstyle ':completion:*' menu select
