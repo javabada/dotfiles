@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 declare -a files=(
   .gitconfig
-  .inputrc
   .tmux.conf
   .vim
   .vimrc
