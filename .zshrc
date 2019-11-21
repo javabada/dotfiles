@@ -1,7 +1,7 @@
 export CLICOLOR=1
 
 alias la='ls -aF'
-alias ll='ls -alF'
+alias ll='ls -alhF'
 alias t='touch'
 alias v='vim'
 
@@ -19,7 +19,6 @@ alias ta='tmux attach-session'
 alias tl='tmux list-sessions'
 alias tn='tmux new-session'
 
-# autocompletion
 autoload -Uz compinit
 compinit
 
