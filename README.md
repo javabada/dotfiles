@@ -1,13 +1,7 @@
 # dotfiles
 
-To clone all submodules:
+To install vim plugins at latest:
 
 ```shell
-git clone --recurse-submodules https://github.com/javabada/dotfiles.git
-```
-
-To update all submodules:
-
-```shell
-git submodule update --recursive --remote
+git submodule update --init --remote
 ```
