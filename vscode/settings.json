@@ -9,13 +9,11 @@
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
   "files.trimTrailingWhitespace": true,
-  "javascript.suggestionActions.enabled": false,
   "telemetry.enableCrashReporter": false,
   "telemetry.enableTelemetry": false,
   "window.restoreFullscreen": true,
   "workbench.colorTheme": "One Dark Pro",
   "workbench.startupEditor": "none",
-  "workbench.statusBar.feedback.visible": false,
   "[python]": {
     "editor.tabSize": 4
   },
@@ -37,23 +35,19 @@
       "commands": [":nohlsearch"]
     },
     {
-      "before": ["<Leader>", "w"],
+      "before": ["leader", "w"],
       "commands": [":write"]
     },
     {
-      "before": ["<Leader>", "n"],
-      "commands": ["workbench.action.nextEditor"]
+      "before": ["leader", "n"],
+      "after": ["g", "t"]
     },
     {
-      "before": ["<Leader>", "p"],
-      "commands": ["workbench.action.previousEditor"]
+      "before": ["leader", "p"],
+      "after": ["g", "T"]
     },
     {
-      "before": ["\\"],
-      "commands": ["workbench.view.explorer"]
-    },
-    {
-      "before": ["<Leader>", "f"],
+      "before": ["leader", "f"],
       "commands": ["editor.action.formatDocument"]
     }
   ]
