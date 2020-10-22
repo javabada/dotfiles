@@ -3,3 +3,5 @@
 	email = jzhang11235@gmail.com
 [core]
 	editor = vim
+[pull]
+	ff = only
